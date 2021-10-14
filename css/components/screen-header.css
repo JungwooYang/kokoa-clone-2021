@@ -5,7 +5,7 @@
   padding: 25px var(--horizontal-space);
   position: fixed;
   top: 30px;
-  width: 95%;
+  width: 90%;
   background-color: white;
 }
 
@@ -15,10 +15,14 @@
 }
 
 .screen-header__icons span {
-  margin-left: var(--horizontal-space);
+  margin-left: 25px;
+}
+
+.screen-header__icons span:nth-of-type(2) {
+  position: relative;
 }
 
 .screen-header__space {
   display: block;
-  height: 120px;
+  height: 150px;
 }

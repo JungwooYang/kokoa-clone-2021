@@ -18,14 +18,14 @@
   position: relative;
 }
 
-.chats__notification {
+.nav__notification__chats {
   position: absolute;
   left: 20px;
   bottom: 20px;
 }
 
-.more__notification {
+.nav__notification__etc {
   position: absolute;
   left: 30px;
-  bottom: 30px;
+  bottom: 25px;
 }
