@@ -4,8 +4,9 @@
   box-sizing: border-box;
   border-top: 1px solid rgba(121, 121, 121, 0.3);
   position: fixed;
-  bottom: 5px;
+  bottom: 0px;
   width: 100%;
+  background-color: white;
 }
 
 .nav__list {
