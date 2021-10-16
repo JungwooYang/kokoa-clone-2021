@@ -152,7 +152,7 @@
   border-radius: 15px;
   border: var(--main-border);
   box-sizing: border-box;
-  transition: all 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .reply__column:last-child > i,
@@ -200,7 +200,7 @@
   opacity: 0;
 }
 
-.reply:focus-within input {
+.reply input:focus {
   width: 96vw;
   transform: translateX(-2%) translateY(-80px);
 }
