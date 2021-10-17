@@ -1,6 +1,5 @@
 .screen-header {
   display: flex;
-
   align-items: center;
   padding: 25px var(--horizontal-space);
   position: fixed;
@@ -18,6 +17,8 @@
 
 .screen-header__icons {
   margin-left: auto;
+  display: flex;
+  align-items: center;
 }
 
 .screen-header__icons span {
@@ -41,4 +42,10 @@
 
 .screen-header .fa-cog:hover {
   animation: rotateCog 1s linear infinite;
+}
+
+.screen-header .header__notification {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
 }
