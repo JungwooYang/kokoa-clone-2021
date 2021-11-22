@@ -1,16 +1,16 @@
-.recommended-friends {
+.recommended-movies {
   border-top: var(--main-border);
   border-bottom: var(--main-border);
   padding: 25px 0px;
   margin: 25px 0px;
 }
 
-.recommended-friends__title {
+.recommended-movies__title {
   font-size: 12px;
   color: var(--grey);
 }
 
-.recommended-friends span {
+.recommended-movies span {
   display: block;
   margin: 100px;
   text-align: center;

@@ -1,4 +1,4 @@
-#no-mobile {
+#only-mobile {
   position: absolute;
   top: 0;
   width: 100vw;
@@ -11,14 +11,14 @@
   font-size: 48px;
 }
 
-#no-mobile span {
+#only-mobile span {
   background-color: black;
   color: var(--yellow);
   padding: 10px;
 }
 
 @media screen and (max-width: 645px) {
-  #no-mobile {
+  #only-mobile {
     display: none;
   }
 }
