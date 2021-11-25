@@ -1,5 +1,5 @@
 #chat-screen {
-  background-color: #abc1d1;
+  background-color: seagreen;
   height: 11000vh;
 }
 
@@ -10,7 +10,7 @@
 }
 #chat-screen .status-bar,
 #chat-screen .alt-header {
-  background-color: #abc1d1;
+  background-color: seagreen;
 }
 
 #chat-screen .status-bar {
@@ -37,7 +37,6 @@
 }
 .chat__timestamp {
   color: white;
-  background-color: #92a4b2;
   padding: 15px;
   border-radius: 25px;
   font-size: 14px;
@@ -98,7 +97,7 @@
 
 .message-row--own {
   justify-content: flex-end;
-  transform: translateX(200px);
+  transform: translateX(300px);
   animation: messageRowOwn 0.5s linear forwards;
   animation-delay: 1s;
 }

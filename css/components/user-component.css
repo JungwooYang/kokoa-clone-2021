@@ -1,4 +1,5 @@
 .user-component {
+  /* flex-direction: column; */
   justify-content: space-between;
   margin: 35px 0px;
 }

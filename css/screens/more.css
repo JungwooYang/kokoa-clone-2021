@@ -29,15 +29,12 @@
 }
 
 .more-suggestions__icon-image img {
-  width: 30px;
-  height: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 20%;
 }
 
 .more-suggestions__icon-image {
-  width: 60px;
-  height: 60px;
-  background-color: var(--yellow);
-  border-radius: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
