@@ -4,7 +4,7 @@
   width: 100vw;
   height: 100vh;
   z-index: 99;
-  background-color: var(--yellow);
+  background-color: seagreen;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,7 +13,7 @@
 
 #only-mobile span {
   background-color: black;
-  color: var(--yellow);
+  color: seagreen;
   padding: 10px;
 }
 
